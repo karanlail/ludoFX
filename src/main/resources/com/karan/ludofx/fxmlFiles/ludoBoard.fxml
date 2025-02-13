@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.karan.ludofx.controllers.GameController">
+   <children>
+      <SplitPane dividerPositions="0.5" style="-fx-border-color: #eff3ff; -fx-border-width: 5;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane>
+               <children>
+                  <StackPane prefHeight="798.4" prefWidth="235.2" style="-fx-background-color: #789aff; -fx-border-color: #deebff; -fx-border-width: 5;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <GridPane alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="300.0" rotate="180.0" StackPane.alignment="CENTER">
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <StackPane.margin>
+                              <Insets right="450.0" />
+                           </StackPane.margin>
+                           <children>
+                              <StackPane fx:id="trackBlue4" layoutX="71.0" layoutY="41.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #3b00db; -fx-border-color: #414A4C;" GridPane.rowIndex="1">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track11" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track6" layoutX="11.0" layoutY="11.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="1">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track7" layoutX="41.0" layoutY="11.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="2">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="trackBlue0" layoutX="11.0" layoutY="41.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #3b00db; -fx-border-color: #414A4C;" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="trackBlue1" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #3b00db; -fx-border-color: #414A4C;" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="trackBlue2" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #3b00db; -fx-border-color: #414A4C;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="trackBlue3" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #3b00db; -fx-border-color: #414A4C;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track13" layoutX="130.0" layoutY="40.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #3b00db; -fx-border-color: #414A4C;" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track10" layoutX="41.0" layoutY="11.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="5">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track9" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="4">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track8" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #BEBFC5; -fx-border-color: #414A4C;" GridPane.columnIndex="3">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track14" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track15" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track16" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track17" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.rowIndex="2">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track5" layoutX="11.0" layoutY="112.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                              </StackPane>
+                              <StackPane fx:id="track12" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                              </StackPane>
+                           </children>
+                        </GridPane>
+                        <GridPane alignment="CENTER" layoutX="39.0" layoutY="204.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="300.0" rotate="90.0">
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <StackPane fx:id="trackGreen4" layoutX="71.0" layoutY="41.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #009345; -fx-border-color: #414A4C;" GridPane.rowIndex="1">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track50" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track45" layoutX="11.0" layoutY="11.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="1">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track46" layoutX="41.0" layoutY="11.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="2">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="trackGreen0" layoutX="11.0" layoutY="41.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #009345; -fx-border-color: #414A4C;" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="trackGreen1" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #009345; -fx-border-color: #414A4C;" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="trackGreen2" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #009345; -fx-border-color: #414A4C;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="trackGreen3" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #009345; -fx-border-color: #414A4C;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track0" layoutX="130.0" layoutY="40.0" onMouseClicked="#rollDice" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #009345; -fx-border-color: #414A4C;" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track49" layoutX="41.0" layoutY="11.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="5">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track48" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="4">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track47" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #BEBFC5; -fx-border-color: #414A4C;" GridPane.columnIndex="3">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track1" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track2" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track3" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track4" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.rowIndex="2">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track44" layoutX="161.0" layoutY="41.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track51" layoutX="11.0" layoutY="11.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                              </StackPane>
+                           </children>
+                           <StackPane.margin>
+                              <Insets top="450.0" />
+                           </StackPane.margin>
+                        </GridPane>
+                        <GridPane alignment="CENTER" layoutX="39.0" layoutY="204.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="300.0" rotate="270.0" StackPane.alignment="CENTER">
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <StackPane fx:id="track24" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track19" layoutX="11.0" layoutY="11.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="1">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                                 <StackPane fx:id="track20" layoutX="41.0" layoutY="11.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="2">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="trackYellow0" layoutX="11.0" layoutY="41.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffef00; -fx-border-color: #414A4C;" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="trackYellow1" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffef00; -fx-border-color: #414A4C;" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="trackYellow2" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffef00; -fx-border-color: #414A4C;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="trackYellow3" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffef00; -fx-border-color: #414A4C;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track26" layoutX="130.0" layoutY="40.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffef00; -fx-border-color: #414A4C;" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track23" layoutX="41.0" layoutY="11.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="5">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track22" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="4">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track21" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #BEBFC5; -fx-border-color: #414A4C;" GridPane.columnIndex="3">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track27" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track28" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track30" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.rowIndex="2">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track18" layoutX="161.0" layoutY="41.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track25" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track29" layoutX="111.0" layoutY="112.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                              </StackPane>
+                              <StackPane fx:id="trackYellow4" layoutX="61.0" layoutY="61.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffef00; -fx-border-color: #414A4C;" GridPane.rowIndex="1">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                              </StackPane>
+                           </children>
+                           <StackPane.margin>
+                              <Insets bottom="450.0" />
+                           </StackPane.margin>
+                        </GridPane>
+                        <GridPane alignment="CENTER" layoutX="174.0" layoutY="204.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="300.0" StackPane.alignment="CENTER">
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <StackPane fx:id="trackRed4" layoutX="71.0" layoutY="41.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ff3800; -fx-border-color: #414A4C;" GridPane.rowIndex="1">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track37" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track32" layoutX="11.0" layoutY="11.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="1">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track33" layoutX="41.0" layoutY="11.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="2">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="trackRed0" layoutX="11.0" layoutY="41.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ff3800; -fx-border-color: #414A4C;" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="trackRed1" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ff3800; -fx-border-color: #414A4C;" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="trackRed2" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ff3800; -fx-border-color: #414A4C;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="trackRed3" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ff3800; -fx-border-color: #414A4C;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track39" layoutX="130.0" layoutY="40.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ff3800; -fx-border-color: #414A4C;" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track36" layoutX="41.0" layoutY="11.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="5">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track35" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="4">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track34" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #BEBFC5; -fx-border-color: #414A4C;" GridPane.columnIndex="3">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track40" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track41" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track42" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track43" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.rowIndex="2">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track31" layoutX="161.0" layoutY="41.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="track38" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-border-color: #414A4C;" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                                 <GridPane.margin>
+                                    <Insets bottom="0.5" left="0.5" right="0.5" top="0.5" />
+                                 </GridPane.margin>
+                              </StackPane>
+                           </children>
+                           <StackPane.margin>
+                              <Insets left="450.0" />
+                           </StackPane.margin>
+                        </GridPane>
+                        <Polygon fill="#3b00db" points="-75, -75, -75, 75, 0, 0" stroke="#3b00db" strokeType="INSIDE" strokeWidth="0.5" StackPane.alignment="CENTER">
+                           <StackPane.margin>
+                              <Insets right="75.0" />
+                           </StackPane.margin>
+                           <effect>
+                              <Glow />
+                           </effect>
+                        </Polygon>
+                        <Polygon fill="#ff3800" layoutX="331.0" layoutY="249.0" points="75, -75, 75, 75, 0, 0" stroke="#ff3800" strokeType="INSIDE" strokeWidth="0.5" StackPane.alignment="CENTER">
+                           <effect>
+                              <Glow />
+                           </effect>
+                           <StackPane.margin>
+                              <Insets left="75.0" />
+                           </StackPane.margin>
+                        </Polygon>
+                        <Polygon fill="#009345" layoutX="331.0" layoutY="227.0" points="75, 75, -75, 75, 0, 0" stroke="#009345" strokeType="INSIDE" strokeWidth="0.5" StackPane.alignment="CENTER">
+                           <effect>
+                              <Glow />
+                           </effect>
+                           <StackPane.margin>
+                              <Insets top="75.0" />
+                           </StackPane.margin>
+                        </Polygon>
+                        <Polygon fill="#ffef00" points="-75, -75, 75, -75, 0, 0" stroke="#ffef00" strokeType="INSIDE" strokeWidth="0.5" StackPane.alignment="CENTER">
+                           <effect>
+                              <Glow />
+                           </effect>
+                           <StackPane.margin>
+                              <Insets bottom="75.0" />
+                           </StackPane.margin>
+                        </Polygon>
+                        <StackPane alignment="TOP_LEFT" layoutX="45.0" layoutY="45.0" maxHeight="280.0" maxWidth="280.0" prefHeight="280.0" prefWidth="280.0" StackPane.alignment="TOP_RIGHT">
+                           <children>
+                              <Circle fill="#ffef00" radius="140.0" stroke="#deebff" strokeLineCap="BUTT" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="10.0">
+                                 <StackPane.margin>
+                                    <Insets />
+                                 </StackPane.margin>
+                              </Circle>
+                              <StackPane fx:id="trackBaseYellow0" maxHeight="48.8" maxWidth="48.8" prefHeight="150.0" prefWidth="200.0" StackPane.alignment="TOP_CENTER">
+                                 <StackPane.margin>
+                                    <Insets top="30.0" />
+                                 </StackPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="trackBaseYellow1" layoutX="126.0" layoutY="40.0" maxHeight="48.8" maxWidth="48.8" prefHeight="150.0" prefWidth="200.0" StackPane.alignment="CENTER_RIGHT">
+                                 <StackPane.margin>
+                                    <Insets right="30.0" />
+                                 </StackPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="trackBaseYellow2" layoutX="10.0" layoutY="10.0" maxHeight="48.8" maxWidth="48.8" prefHeight="150.0" prefWidth="200.0" StackPane.alignment="BOTTOM_CENTER">
+                                 <StackPane.margin>
+                                    <Insets bottom="30.0" />
+                                 </StackPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="trackBaseYellow3" layoutX="10.0" layoutY="10.0" maxHeight="48.8" maxWidth="48.8" prefHeight="150.0" prefWidth="200.0" StackPane.alignment="CENTER_LEFT">
+                                 <StackPane.margin>
+                                    <Insets left="30.0" />
+                                 </StackPane.margin>
+                              </StackPane>
+                           </children>
+                        </StackPane>
+                        <StackPane alignment="TOP_LEFT" layoutX="271.0" layoutY="269.0" maxHeight="280.0" maxWidth="280.0" prefHeight="280.0" prefWidth="280.0" StackPane.alignment="BOTTOM_LEFT">
+                           <children>
+                              <Circle fill="#009345" radius="140.0" stroke="#deebff" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="10.0">
+                                 <StackPane.margin>
+                                    <Insets />
+                                 </StackPane.margin>
+                              </Circle>
+                              <StackPane fx:id="trackBaseGreen0" maxHeight="48.8" maxWidth="48.8" prefHeight="150.0" prefWidth="200.0" StackPane.alignment="TOP_CENTER">
+                                 <StackPane.margin>
+                                    <Insets top="30.0" />
+                                 </StackPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="trackBaseGreen1" layoutX="126.0" layoutY="40.0" maxHeight="48.8" maxWidth="48.8" prefHeight="150.0" prefWidth="200.0" StackPane.alignment="CENTER_RIGHT">
+                                 <StackPane.margin>
+                                    <Insets right="30.0" />
+                                 </StackPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="trackBaseGreen2" layoutX="10.0" layoutY="10.0" maxHeight="48.8" maxWidth="48.8" prefHeight="150.0" prefWidth="200.0" StackPane.alignment="BOTTOM_CENTER">
+                                 <StackPane.margin>
+                                    <Insets bottom="30.0" />
+                                 </StackPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="trackBaseGreen3" layoutX="10.0" layoutY="10.0" maxHeight="48.8" maxWidth="48.8" prefHeight="150.0" prefWidth="200.0" StackPane.alignment="CENTER_LEFT">
+                                 <StackPane.margin>
+                                    <Insets left="30.0" />
+                                 </StackPane.margin>
+                              </StackPane>
+                           </children>
+                        </StackPane>
+                        <StackPane alignment="TOP_LEFT" layoutX="271.0" layoutY="269.0" maxHeight="280.0" maxWidth="280.0" prefHeight="280.0" prefWidth="280.0" StackPane.alignment="BOTTOM_RIGHT">
+                           <children>
+                              <Circle fill="#ff3800" radius="140.0" stroke="#deebff" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="10.0">
+                                 <StackPane.margin>
+                                    <Insets />
+                                 </StackPane.margin>
+                              </Circle>
+                              <StackPane fx:id="trackBaseRed0" maxHeight="48.8" maxWidth="48.8" prefHeight="150.0" prefWidth="200.0" StackPane.alignment="TOP_CENTER">
+                                 <StackPane.margin>
+                                    <Insets top="30.0" />
+                                 </StackPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="trackBaseRed1" layoutX="126.0" layoutY="40.0" maxHeight="48.8" maxWidth="48.8" prefHeight="150.0" prefWidth="200.0" StackPane.alignment="CENTER_RIGHT">
+                                 <StackPane.margin>
+                                    <Insets right="30.0" />
+                                 </StackPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="trackBaseRed2" layoutX="10.0" layoutY="10.0" maxHeight="48.8" maxWidth="48.8" prefHeight="150.0" prefWidth="200.0" StackPane.alignment="BOTTOM_CENTER">
+                                 <StackPane.margin>
+                                    <Insets bottom="30.0" />
+                                 </StackPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="trackBaseRed3" layoutX="10.0" layoutY="10.0" maxHeight="48.8" maxWidth="48.8" prefHeight="150.0" prefWidth="200.0" StackPane.alignment="CENTER_LEFT">
+                                 <StackPane.margin>
+                                    <Insets left="30.0" />
+                                 </StackPane.margin>
+                              </StackPane>
+                           </children>
+                           <StackPane.margin>
+                              <Insets />
+                           </StackPane.margin>
+                        </StackPane>
+                        <StackPane alignment="TOP_LEFT" maxHeight="280.0" maxWidth="280.0" prefHeight="280.0" prefWidth="280.0" StackPane.alignment="TOP_LEFT">
+                           <StackPane.margin>
+                              <Insets />
+                           </StackPane.margin>
+                           <children>
+                              <Circle fill="#3b00db" radius="140.0" stroke="#e0edff" strokeLineCap="ROUND" strokeType="INSIDE" strokeWidth="10.0">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                              </Circle>
+                              <StackPane fx:id="trackBaseBlue0" maxHeight="48.8" maxWidth="48.8" prefHeight="150.0" prefWidth="200.0" StackPane.alignment="TOP_CENTER">
+                                 <StackPane.margin>
+                                    <Insets top="30.0" />
+                                 </StackPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="trackBaseBlue1" layoutX="126.0" layoutY="40.0" maxHeight="48.8" maxWidth="48.8" prefHeight="150.0" prefWidth="200.0" StackPane.alignment="CENTER_RIGHT">
+                                 <StackPane.margin>
+                                    <Insets right="30.0" />
+                                 </StackPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="trackBaseBlue2" layoutX="10.0" layoutY="10.0" maxHeight="48.8" maxWidth="48.8" prefHeight="150.0" prefWidth="200.0" StackPane.alignment="BOTTOM_CENTER">
+                                 <StackPane.margin>
+                                    <Insets bottom="30.0" />
+                                 </StackPane.margin>
+                              </StackPane>
+                              <StackPane fx:id="trackBaseBlue3" layoutX="10.0" layoutY="10.0" maxHeight="48.8" maxWidth="48.8" prefHeight="150.0" prefWidth="200.0" StackPane.alignment="CENTER_LEFT">
+                                 <StackPane.margin>
+                                    <Insets left="30.0" />
+                                 </StackPane.margin>
+                              </StackPane>
+                           </children>
+                        </StackPane>
+                     </children>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+            </AnchorPane>
+          <AnchorPane>
+               <children>
+                  <StackPane minWidth="300.0" style="-fx-background-color: #eff3ff; -fx-border-color: #deebff; -fx-border-width: 5; -fx-border-radius: 5;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Label alignment="CENTER" text="LUDO" textAlignment="CENTER" textFill="#171c4f" underline="true" StackPane.alignment="TOP_CENTER">
+                           <font>
+                              <Font name="Niagara Engraved" size="96.0" />
+                           </font>
+                           <StackPane.margin>
+                              <Insets right="75.0" top="20.0" />
+                           </StackPane.margin>
+                           <effect>
+                              <Reflection bottomOpacity="0.08" fraction="0.71" topOffset="0.5" topOpacity="0.45" />
+                           </effect>
+                        </Label>
+                        <Label fx:id="currentPlayer" alignment="CENTER" text="playername" textFill="#202688" StackPane.alignment="CENTER">
+                           <font>
+                              <Font name="Ebrima Bold" size="51.0" />
+                           </font>
+                           <StackPane.margin>
+                              <Insets bottom="100.0" top="10.0" />
+                           </StackPane.margin>
+                        </Label>
+                        <Label alignment="CENTER" text="CURRENT PLAYER" textAlignment="CENTER" textFill="#202688" wrapText="true" StackPane.alignment="CENTER">
+                           <font>
+                              <Font name="Rockwell Nova Cond" size="50.0" />
+                           </font>
+                           <StackPane.margin>
+                              <Insets bottom="220.0" />
+                           </StackPane.margin>
+                           <padding>
+                              <Insets left="10.0" right="10.0" />
+                           </padding>
+                        </Label>
+                        <Label fx:id="playerAction" text="playerAction" textFill="#293ee7" StackPane.alignment="CENTER">
+                           <font>
+                              <Font name="Rockwell Condensed" size="30.0" />
+                           </font>
+                           <StackPane.margin>
+                              <Insets top="50.0" />
+                           </StackPane.margin>
+                        </Label>
+                        <Button fx:id="buttonRollDice" mnemonicParsing="false" onAction="#rollDice" style="-fx-background-color: #212cd4;" text="ROLL DICE" textAlignment="CENTER" textFill="WHITE" StackPane.alignment="BOTTOM_RIGHT">
+                           <StackPane.margin>
+                              <Insets bottom="50.0" right="50.0" />
+                           </StackPane.margin>
+                           <font>
+                              <Font name="Onyx" size="31.0" />
+                           </font>
+                        </Button>
+                        <Pane fx:id="diceImage" maxHeight="125.0" maxWidth="125.0" minHeight="125.0" minWidth="125.0" prefHeight="125.0" prefWidth="125.0" StackPane.alignment="BOTTOM_CENTER">
+                           <StackPane.margin>
+                              <Insets bottom="200.0" />
+                           </StackPane.margin>
+                        </Pane>
+                     </children>
+                  </StackPane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
